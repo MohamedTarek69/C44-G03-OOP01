@@ -1,4 +1,6 @@
-﻿namespace Assignment_OOP_01
+﻿using System.ComponentModel;
+
+namespace Assignment_OOP_01
 {
     internal class Program
     {
@@ -41,6 +43,88 @@
 
             #endregion
 
-            }
+            #region Q3- Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum.
+            //Create Variable from previous Enum to Add and Remove Permission from variable,
+            //check if specific Permission existed inside variable
+            //Permissions permissions = new Permissions();
+            //while (true)
+            //{
+            //    Console.Clear();
+            //    if ((int)permissions == 0)
+            //    {
+            //        Console.WriteLine("No permissions assigned yet.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"Current Permissions: {permissions}");
+            //    }
+            //    int ActionInput;
+            //    bool IsValidInput;
+            //    do
+            //    {
+            //        Console.Write("Do you want to Add or Remove a permission? (1-Add | 2-Remove | 3-Exit): ");
+            //        IsValidInput = int.TryParse(Console.ReadLine(), out ActionInput);
+
+            //    } while (!IsValidInput || (ActionInput != 1 && ActionInput != 2 && ActionInput !=3));
+
+            //    bool IsValidPerm;
+            //    int PermChoice;
+
+            //    if (ActionInput == 1)
+            //    {
+            //        Console.WriteLine("Adding Permission...");
+            //    }
+            //    else if (ActionInput == 2)
+            //    {
+            //        Console.WriteLine("Removing Permission...");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Exiting program...");
+            //        break;
+            //    }
+            //        do
+            //        {
+            //            Console.Write("Which permission? (1-Read | 2-Write | 3-Delete | 4-Execute): ");
+            //            IsValidPerm = int.TryParse(Console.ReadLine(), out PermChoice);
+            //        }
+            //        while (!IsValidPerm || (PermChoice != 1 && PermChoice != 2&& PermChoice !=3 && PermChoice != 4));
+
+            //    Permissions SelectedPermission;
+
+            //    switch (PermChoice)
+            //    {
+            //        case 1:
+            //            SelectedPermission = Permissions.Read;
+            //            break;
+            //        case 2:
+            //            SelectedPermission = Permissions.Write;
+            //            break;
+            //        case 3:
+            //            SelectedPermission = Permissions.Delete;
+            //            break;
+            //        case 4:
+            //            SelectedPermission = Permissions.Execute;
+            //            break;
+            //        default:
+            //            Console.WriteLine("Invalid permission choice.");
+            //            return;
+            //    }
+            //    if (ActionInput == 1)
+            //    {
+            //        permissions |= SelectedPermission;
+            //    }
+            //    else if (ActionInput == 2 && (permissions & SelectedPermission) == SelectedPermission)
+            //    {
+            //        permissions ^= SelectedPermission;
+            //    }
+
+            //}
+
+            #endregion
+
+
+
+        }
     }
 }
